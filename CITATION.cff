@@ -15,18 +15,18 @@ authors:
 identifiers:
   - type: url
     value: >-
-https://github.com/ChaparroAlain/Practica4_ModelizadoMatematico_21212147Chaparro.git
-description: Práctica4_ModelizadoMatemati
+https://github.com/ChaparroAlain/Practica-5_AnalisisDeSistemasBiologicos_Chaparro21212147
+description: Practica-5_AnalisisDeSistemasBiologicos_Chaparro21212147
 abstract: |2-
    Tecnologico Nacional de México 
    Instituto Tecnologico de Tijuana
    Ingeniería Biomédica 
    Gemelos Digitales
-   Práctica4-ModelizadoMatemati
+   Practica-5_AnalisisDeSistemasBiologicos
 keywords:
-  - Modelizado
-  - Equilibrio
-  - Estabilidad local
+  - Poblacion
+  - Analisis
+  - Sistemas dinamicos
   - Matriz jacobiana
-  - Regresion no lineal
+  - Estabilidad local
 license: BSD-2-Clause
