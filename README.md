@@ -1,6 +1,6 @@
 [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=ChaparroAlain/GemelosDigitales_Practica3_RegresionNoLineal_Chaparro21212147)
 
-# Gemelos Digitales. Práctica 4: Modelado Matematico [Chaparro21212147]
+# Gemelos Digitales. Práctica 5: Analisis de sistemas biologicos [Chaparro21212147]
 
 ## Autor
 Chaparro Zamora Alain Yahir
