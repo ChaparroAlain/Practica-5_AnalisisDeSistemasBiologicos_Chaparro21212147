@@ -1,0 +1,32 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Matlab
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Alain Yahir 
+    family-names: Chaparro Zamora
+    email: L21212147@tectijuana.edu.mx
+    affiliation: 'Tecnológico Nacional de México '
+identifiers:
+  - type: url
+    value: >-
+https://github.com/ChaparroAlain/Practica4_ModelizadoMatematico_21212147Chaparro.git
+description: Práctica4_ModelizadoMatemati
+abstract: |2-
+   Tecnologico Nacional de México 
+   Instituto Tecnologico de Tijuana
+   Ingeniería Biomédica 
+   Gemelos Digitales
+   Práctica4-ModelizadoMatemati
+keywords:
+  - Modelizado
+  - Equilibrio
+  - Estabilidad local
+  - Matriz jacobiana
+  - Regresion no lineal
+license: BSD-2-Clause
