@@ -8,16 +8,20 @@ Chaparro Zamora Alain Yahir
 Ingeniería Biomédica, Departamento de Ingeniería Eléctrica y Electrónica, Tecnológico Nacional de México/IT Tijuana. Blvd. Alberto Limón Padilla s/n, Tijuana, C.P. 22454, B.C., México. Email: l21212147@tectijuana.edu.mx
 
 ## Resumen de la práctica
-En esta práctica, se aplicó un modelo matemático para ajustar datos experimentales de poblaciones celulares. Se utilizó regresión no lineal para estimar los parámetros del sistema, con base en un archivo de datos (data.csv). Se implementaron funciones en MATLAB para visualizar y comparar datos reales y simulados, además de resolver el sistema de ecuaciones diferenciales mediante integración numérica. Se determinaron los puntos de equilibrio del sistema y se calculó la matriz Jacobiana en cada uno, evaluando su estabilidad local a través de los autovalores. Se concluyó que el sistema presenta un solo punto de equilibrio estable (nodo sumidero) y tres inestables (nodo fuente y puntos silla), lo cual se alinea con la teoría de estabilidad lineal para sistemas no lineales.
+En esta práctica se implementó un modelo dinámico tridimensional para representar la interacción entre células normales, células tumorales y células efectoras del sistema inmunológico. Se utilizaron funciones en MATLAB para simular distintos escenarios dinámicos: atractores caóticos, órbitas periódicas, ciclos límite (internos y externos), y convergencia hacia puntos de equilibrio. Además, se analizaron estos comportamientos tanto en condiciones sin tratamiento como con tratamiento, aplicando una fuerza inmunológica modelada con el parámetro rho1. Posteriormente, se calcularon los puntos de equilibrio del sistema utilizando álgebra simbólica y se obtuvo la matriz Jacobiana para cada uno de ellos. A través de los autovalores de la Jacobiana, se determinó la estabilidad local de cada punto de equilibrio. Se concluyó que el comportamiento más fisiológicamente relevante es la convergencia hacia un punto de equilibrio, ya que representa un estado clínicamente controlado, semejante a una remisión o equilibrio homeostático del sistema biológico.
+
 
 ## Objetivos específicos
-1.-Leer y cargar los datos desde un archivo .csv para su utilización en el análisis y modelado matemático en MATLAB.
-2.-Aplicar un modelo matemático basado en las ecuaciones diferenciales de Lotka-Volterra para representar las interacciones entre las poblaciones de células normales y tumorales, teniendo en cuenta los parámetros de crecimiento y competencia.
-3.-Identificar los puntos de equilibrio del sistema para las poblaciones celulares normales y tumorales, considerando los parámetros de crecimiento y competencia.
-4.-Calcular la matriz Jacobiana y analizar la estabilidad local de los puntos de equilibrio, con el fin de determinar cuáles son estables e inestables.
-5.-Implementar un modelo de ajuste de parámetros en MATLAB para optimizar los parámetros del modelo y reflejar de manera precisa los datos experimentales.
-6.-Crear gráficos que comparen los datos experimentales con los resultados del modelo ajustado para observar la dinámica temporal de las células normales y tumorales.
-Interpretación de los resultados: Analizar e interpretar los resultados obtenidos, identificando patrones en la interacción entre las poblaciones celulares y la validez del modelo propuesto.
+1.-Leer y definir los parámetros del modelo biológico en MATLAB para representar las interacciones entre poblaciones celulares.
+2.-Simular distintos comportamientos dinámicos (atractor caótico, órbita periódica, ciclos límite internos y externos) bajo diferentes condiciones iniciales.
+3.-Analizar el comportamiento del sistema con y sin tratamiento inmunológico, a través de la modificación del parámetro rho1.
+4.-Implementar versiones del modelo tanto normalizadas como no normalizadas para observar diferencias en la dinámica del sistema.
+5.-Programar la resolución del sistema de ecuaciones diferenciales mediante integración numérica utilizando métodos de Runge-Kutta.
+6.-Generar gráficas temporales y tridimensionales para visualizar la evolución del sistema a lo largo del tiempo.
+7.-Calcular los puntos de equilibrio simbólicamente con funciones de álgebra en MATLAB.
+8.-Determinar la matriz Jacobiana en cada punto de equilibrio y calcular sus autovalores para analizar su estabilidad local.
+9.-Evaluar cómo varían los puntos de equilibrio al cambiar el parámetro de tratamiento (rho1) y la interacción entre células (a12).
+10.-Identificar y justificar cuál de los comportamientos dinámicos observados es el más representativo desde el punto de vista fisiológico y clínico.
 
 ## Docente
 Dr. Paul A. Valle
@@ -26,7 +30,6 @@ Posgrado en Ciencias de la Ingeniería [PCI] y Departamento de Ingeniería Eléc
 
 ## Lecturas
 [1] Paul. A. Valle, Syllabus de Biomatemáticas para la asignatura de Gemelos Digitales, Tecnológico Nacional de México/IT Tijuana, Tijuana, B.C., México, 2025. Permalink: https://www.dropbox.com/s/6yf9afxzih9y458/Biomatematicas.pdf
-[2]Gatenby, R. A., & Vincent, T. L. (2003). Application of quantitative models from population biology and evolutionary game theory to tumor therapeutic strategies. Molecular Cancer Therapeutics, 2(9), 919–927.
-[3]Wodarz, D., & Komarova, N. L. (2014). Dynamics of cancer: Mathematical foundations of oncology. Not Avail. https://doi.org/10.1142/8973
+
 
 
